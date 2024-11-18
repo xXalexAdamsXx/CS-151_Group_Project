@@ -1,0 +1,101 @@
+{
+	"store_info": {
+		"store_name": "Tech Emporium",
+		"phone_number": "555-123-4567",
+		"city": "San Francisco",
+		"state": "California",
+		"city_tax_percentage": 8.75
+	},
+	"product_info": [
+		{
+			"product_code": "01145",
+			"product_name": "Wireless Mouse",
+			"price": 25.99,
+			"description": "Compact and sleek"
+		},
+		{
+			"product_code": "01151",
+			"product_name": "USB Keyboard",
+			"price": 19.99,
+			"description": "Standard layout"
+		},
+		{
+			"product_code": "01102",
+			"product_name": "HDMI Cable",
+			"price": 12.99,
+			"description": "6 ft length"
+		},
+		{
+			"product_code": "02487",
+			"product_name": "Laptop Stand",
+			"price": 39.99,
+			"description": "Adjustable height"
+		},
+		{
+			"product_code": "03695",
+			"product_name": "Webcam 1080p",
+			"price": 49.99,
+			"description": "Full HD video"
+		},
+		{
+			"product_code": "04567",
+			"product_name": "Portable SSD",
+			"price": 89.99,
+			"description": "1TB storage"
+		},
+		{
+			"product_code": "05432",
+			"product_name": "Bluetooth Speaker",
+			"price": 29.99,
+			"description": "Rich sound"
+		},
+		{
+			"product_code": "06120",
+			"product_name": "Smartphone Case",
+			"price": 15.99,
+			"description": "Slim fit"
+		},
+		{
+			"product_code": "07456",
+			"product_name": "USB-C Hub",
+			"price": 34.99,
+			"description": "7 ports"
+		},
+		{
+			"product_code": "08123",
+			"product_name": "Gaming Headset",
+			"price": 59.99,
+			"description": "Noise canceling"
+		},
+		{
+			"product_code": "09450",
+			"product_name": "Wireless Charger",
+			"price": 24.99,
+			"description": "Fast charging"
+		},
+		{
+			"product_code": "10203",
+			"product_name": "Action Camera",
+			"price": 99.99,
+			"description": "4K recording"
+		},
+		{
+			"product_code": "01146",
+			"product_name": "USB Flash Drive",
+			"price": 14.99,
+			"description": "64GB capacity"
+		},
+		{
+			"product_code": "01147",
+			"product_name": "Ethernet Cable",
+			"price": 9.99,
+			"description": "10 ft length"
+		},
+		{
+			"product_code": "01148",
+			"product_name": "Monitor Stand",
+			"price": 19.99,
+			"description": "Ergonomic design"
+		}
+	]
+}
