@@ -24,13 +24,13 @@
 			"product_code": "01102",
 			"product_name": "HDMI Cable",
 			"price": 12.99,
-			"description": "6 ft length. Connects to your Xbox (shout out Bill Gates) and what-not"
+			"description": "6 ft length."
 		},
 		{
 			"product_code": "02487",
 			"product_name": "Laptop Stand",
 			"price": 39.99,
-			"description": "Adjustable height. Perfect for your Windows Surface (Shout out Bill Gates... again)."
+			"description": "Adjustable height."
 		},
 		{
 			"product_code": "03695",
@@ -48,13 +48,13 @@
 			"product_code": "05432",
 			"product_name": "Bluetooth Speaker",
 			"price": 29.99,
-			"description": "Sounds fire bro. Definitely cop these"
+			"description": "Sounds great!"
 		},
 		{
 			"product_code": "06120",
 			"product_name": "Smartphone Case",
 			"price": 15.99,
-			"description": "Looks dope"
+			"description": "Looks dope!"
 		},
 		{
 			"product_code": "07456",
