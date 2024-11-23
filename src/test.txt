@@ -1,3 +1,0 @@
-Hello, welcome to the source code file.
-
-Write all your java classes here!
