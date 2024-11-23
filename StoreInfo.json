@@ -4,7 +4,8 @@
 		"phone_number": "555-123-4567",
 		"city": "San Jose",
 		"state": "California",
-		"city_tax_percentage": 8.75
+		"city_tax_percentage": 8.75,
+		"discount": 0.5
 	},
 	"product_info": [
 		{
@@ -23,13 +24,13 @@
 			"product_code": "01102",
 			"product_name": "HDMI Cable",
 			"price": 12.99,
-			"description": "6 ft length"
+			"description": "6 ft length. Connects to your Xbox (shout out Bill Gates) and what-not"
 		},
 		{
 			"product_code": "02487",
 			"product_name": "Laptop Stand",
 			"price": 39.99,
-			"description": "Adjustable height"
+			"description": "Adjustable height. Perfect for your Windows Surface (Shout out Bill Gates... again)."
 		},
 		{
 			"product_code": "03695",
