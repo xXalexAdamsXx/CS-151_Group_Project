@@ -32,8 +32,18 @@ public class LogIn extends JFrame {
 
 		// Add action listener to the submit button
 		submitButton.addActionListener(event -> {
-			getUserInput();
-			submitButton.setBackground(Color.BLUE);
+			String[] stuff = getUserInput();
+
+			if (stuff[0].equals("") || stuff[1].equals(""))
+				return;
+
+			getContentPane().removeAll(); // Remove all components from the content pane
+
+			JLabel welcomeText = new JLabel("Hello, " + stuff[0] + "!", SwingConstants.CENTER);
+			add(welcomeText, BorderLayout.CENTER);
+
+			revalidate(); // Revalidate the container to ensure everything gets updated
+			repaint(); // Repaint the frame
 		});
 
 		// Set default close operation
@@ -82,7 +92,7 @@ public class LogIn extends JFrame {
 	 *
 	 * @return An array of strings containing the user inputs.
 	 */
-	private String[] getUserInput() {
+	public String[] getUserInput() {
 		String[] inputs = new String[dataInput.length];
 
 		for (int i = 0; i < inputs.length; i++) {
