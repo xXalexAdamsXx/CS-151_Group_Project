@@ -1,9 +1,4 @@
-package src.ui;
-
-import src.services.InventoryService;
-import src.services.InvoiceService;
 import src.utils.DateTimeUtils;
-
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
