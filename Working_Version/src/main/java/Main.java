@@ -1,7 +1,6 @@
-package main;
+//package main;
 
-import Menus.LogIn;
-import ui.MainUI;
+import Front_End.*;
 
 /**
  * The Main class serves as the entry point for the cashier application.
@@ -23,5 +22,3 @@ public class Main {
 		});
 	}
 }
-
-

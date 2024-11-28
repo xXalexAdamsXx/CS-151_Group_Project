@@ -1,4 +1,4 @@
-package Menus;
+package Front_End;
 
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -6,7 +6,8 @@ import java.awt.*;
 import java.util.function.Consumer;
 
 /**
- * The LogIn class displays a login screen and executes a callback upon successful login.
+ * The LogIn class displays a login screen and executes a callback upon
+ * successful login.
  */
 public class LogIn extends JFrame {
 	private static final String TITLE = "User Log-in Screen";
@@ -17,7 +18,8 @@ public class LogIn extends JFrame {
 	/**
 	 * Constructs the LogIn screen with a callback for successful login.
 	 *
-	 * @param onLoginSuccess A Consumer callback to execute when login is successful.
+	 * @param onLoginSuccess A Consumer callback to execute when login is
+	 *                       successful.
 	 *                       The callback receives the logged-in username.
 	 */
 	public LogIn(Consumer<String> onLoginSuccess) {

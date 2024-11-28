@@ -1,4 +1,4 @@
-package ui;
+package Front_End;
 
 import services.InventoryService;
 import services.InvoiceService;
@@ -106,7 +106,7 @@ public class MainUI extends JFrame {
             JFrame inventoryFrame = new JFrame("Inventory");
             inventoryFrame.setSize(600, 400);
             JTable inventoryTable = new JTable(InventoryService.getInventoryTableData(),
-                    new String[]{"Code", "Name", "Price", "Description"});
+                    new String[] { "Code", "Name", "Price", "Description" });
             inventoryFrame.add(new JScrollPane(inventoryTable));
             inventoryFrame.setVisible(true);
         });
@@ -138,7 +138,7 @@ public class MainUI extends JFrame {
                     InvoiceService.addItemToInvoice(code, quantity);
                     invoiceTable.setModel(new DefaultTableModel(
                             InvoiceService.getInvoiceTableData(),
-                            new String[]{"Code", "Name", "Quantity", "Price"}));
+                            new String[] { "Code", "Name", "Quantity", "Price" }));
                 } else {
                     JOptionPane.showMessageDialog(this, "Invalid Product Code.");
                 }
@@ -153,7 +153,7 @@ public class MainUI extends JFrame {
                 InvoiceService.removeItemFromInvoice(selectedRow);
                 invoiceTable.setModel(new DefaultTableModel(
                         InvoiceService.getInvoiceTableData(),
-                        new String[]{"Code", "Name", "Quantity", "Price"}));
+                        new String[] { "Code", "Name", "Quantity", "Price" }));
             } else {
                 JOptionPane.showMessageDialog(this, "Please select a row to remove.");
             }
